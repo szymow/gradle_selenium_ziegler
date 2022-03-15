@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.softwaretestinghelp.gradle_selenium'
+group 'org.example.gradle_selenium_ziegler'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
