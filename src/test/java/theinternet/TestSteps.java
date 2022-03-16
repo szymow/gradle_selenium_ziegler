@@ -150,13 +150,11 @@ public class TestSteps {
     }
 
 
-    /*
     @Then("User clicks on Submit quote goods information")
     public void userClicksOnSubmitQuoteContactGoodsInformationButton() throws InterruptedException {
         driver.findElement(By.id("submit_quote_goods_information")).click();
         Thread.sleep(3000);
     }
-     */
 
 
     @Then("Application shows that quote has been confirmed.")
@@ -201,13 +199,11 @@ public class TestSteps {
         driver.findElement(By.cssSelector(".custom-control-label > span")).click();
     }
 
-    /*
     @And("User clicks on Submit contact button")
     public void userClicksOnSubmitContactButton() throws InterruptedException {
         driver.findElement(By.id("submit_contact")).click();
         Thread.sleep(3000);
     }
-     */
 
     @Then("Application shows that contact has been confirmed.")
     public void applicationShowsThatContactHasBeenConfirmed() {
